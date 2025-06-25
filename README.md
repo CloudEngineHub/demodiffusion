@@ -153,9 +153,12 @@ Once you have human demonstration, save kinematically retargeted robot end effec
 # 📊 Collect Your Own Human Demonstration
 As long as the human demonstration consists of 3D hand keypoints as aforementioned, you can use it for deployment. Here, we provide how we collected the human demonstration as one guideline.
 
+- TODO
+
 <br>
 
 # 🙏 Acknowledgements
+Our code is based on: [Pi-0](https://github.com/Physical-Intelligence/openpi), [Hamer](https://github.com/geopavlakos/hamer), and [Manimo](https://github.com/AGI-Labs/manimo). We thank all these authors for their open-sourced code.
 
 <br>
 
