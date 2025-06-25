@@ -17,12 +17,12 @@
   <a href="https://homangab.github.io/">Homanga Bharadhwaj</a>, 
   <a href="https://shubhtuls.github.io/">Shubham Tulsiani</a>
 
-Author's implementation of DemoDiffusion.
+Authors' implementation of DemoDiffusion.
 
 This repository consists of two parts.
 
-- deploy: Given human demonstration, perform inference of DemoDiffusion
-- collect: Here we provide how we collected the human demonstration, but deployment is separate as long as you satisfy requirements below.
+- deploy: Given a single human demonstration, perform inference of DemoDiffusion
+- collect: Here we briefly explain how we collected the human demonstration, but deployment is separate as long as you satisfy requirements below.
 
 <br>
 
