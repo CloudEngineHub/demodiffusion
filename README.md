@@ -96,6 +96,8 @@ Once you have human demonstration, save kinematically retargeted robot end effec
 <br>
 
 # 🤖 Deploy DemoDiffusion
+0. In DROID laptop, update config files (manimo/manimo/conf/arm/franka_arm_pizero.yaml, manimo/manimo/conf/camera/multi_real_sense_pizero.yaml) with your ip and camera id.
+
 1. Turn on Franka Panda, NUC, and DROID laptop. 
 
     In NUC, run
