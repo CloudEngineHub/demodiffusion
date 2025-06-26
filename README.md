@@ -8,9 +8,9 @@
 
 <a href="https://demodiffusion.github.io/"><strong>Project Page</strong></a>
   |
-  <a href="https://demodiffusion.github.io/"><strong>arXiv</strong></a>
-  |
-  <a href="https://demodiffusion.github.io/"><strong>Data</strong></a>
+  <a href="https://arxiv.org/abs/2506.20668"><strong>arXiv</strong></a>
+  
+  <!-- <a href="https://demodiffusion.github.io/"><strong>Data</strong></a> -->
   
 
   <a href="https://rureadyo.github.io/">Sungjae Park</a>, 
