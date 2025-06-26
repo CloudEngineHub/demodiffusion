@@ -168,6 +168,14 @@ Our code is based on: [Pi-0](https://github.com/Physical-Intelligence/openpi), [
 
 If you find our work useful, please consider citing:
 ```
-TBD
+@misc{park2025demodiffusiononeshothumanimitation,
+      title={DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy}, 
+      author={Sungjae Park and Homanga Bharadhwaj and Shubham Tulsiani},
+      year={2025},
+      eprint={2506.20668},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.20668}, 
+}
 ```
 
