@@ -134,7 +134,7 @@ Once you have human demonstration, save kinematically retargeted robot end effec
     ```
 
 
-3. Run DemoDiffusion Inference. During inference, kinematically retargeted end effector poses will be converted into joint velocity (action space of Pi-0 DROID) using inverse-kinematics.
+3. Run DemoDiffusion Inference. During inference, at each timestep, we index kinematically retargeted end effector poses with same timestep. Then, it gets converted into joint velocity (action space of Pi-0 DROID) using inverse-kinematics. 
 
     In DROID laptop, run
     ```   
@@ -150,12 +150,19 @@ Once you have human demonstration, save kinematically retargeted robot end effec
 
     - To adjust threshold for kinematically retargeted gripper actions, set --gripper_threshold. By default, we use 0.2.
 
+4. (Optional) To check the quality of kinematic retargeting only, run below in DROID laptop.
+    ```   
+    cd PATH_TO_DEMODIFFUSION/demodiffusion/deploy
+    conda activate manimo-latest
+    
+    python replay_retarget.py --task_name $TASK_NAME --traj_num $TRAJ_NUM  
+    ```
+
 <br>
 
 # 📊 Collect Your Own Human Demonstration
-As long as the human demonstration consists of 3D hand keypoints as aforementioned, you can use it for deployment. Here, we provide how we collected the human demonstration as one guideline.
+As long as the human demonstration consists of 3D hand keypoints as aforementioned, you can use it for deployment. We provide how we collected the human demonstration as one guideline [here](collect.md).
 
-- TODO
 
 <br>
 
